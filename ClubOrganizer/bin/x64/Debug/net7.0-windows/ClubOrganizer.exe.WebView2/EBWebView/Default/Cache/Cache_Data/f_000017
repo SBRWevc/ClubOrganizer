@@ -1,0 +1,968 @@
+$(document).ready(function() {
+	Highcharts.setOptions({
+		lang: {
+			months: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+			shortMonths: ['Янв', 'Фев', 'Март', 'Апр', 'Май', 'Июнь', 'Июль', 'Авг', 'Сент', 'Окт', 'Нояб', 'Дек'],
+			weekdays: ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'],
+			shortWeekdays:['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+			contextButtonTitle: 'меню',
+			downloadCSV: 'Скачать CSV',
+			downloadJPEG: 'Скачать JPEG',
+			downloadPDF: 'Скачать PDF',
+			downloadPNG: 'Скачать PNG',
+			downloadSVG: 'Скачать SVG',
+			downloadXLS: 'Скачать XLS',
+			exitFullscreen: 'Выйти из полноэкранного режима',
+			exportData: {
+				categoryDatetimeHeader: 'Дата',
+				categoryHeader: 'Категория',
+			},
+			loading: 'Загрузка&hellip;',
+			printChart: 'Распечатать график',
+			resetZoom: 'Сброс',
+			viewFullscreen: 'Полноэкранный режим',
+		},
+		colors: ['#7cb5ec', '#f7a35c', '#90ee7e', '#7798BF', '#aaeeee', '#e4347a', '#eeaaee', '#55BF3B', '#DF5353', '#7798BF', '#aaeeee'],
+		chart: {
+			backgroundColor: null,
+			type: 'column',
+			zoomType: 'x'
+		},
+		exporting: {
+			tableCaption: false,
+			buttons: {
+				contextButton: {
+					menuItems: ["viewFullscreen", "printChart", "separator", "downloadPNG", "downloadJPEG", "downloadPDF", "downloadSVG", "separator", "downloadCSV", "downloadXLS",]
+				}
+			}
+		},
+		title: {
+			style: {
+				color: 'white',
+				textShadow: '0 1px 4px black',
+			}
+		},
+		time: {
+			timezoneOffset: (new Date().getTimezoneOffset())
+		},
+		legend: {
+			itemStyle: {
+				color: '#F0F0EA',
+			}
+		},
+		loading: {
+			style: {
+				opacity: '0.8'
+			}
+		},
+		xAxis: {
+			crosshair: true,
+			type: 'datetime',
+			//categories: Highcharts.getOptions().lang.shortMonths,
+			labels: {
+				style: {
+					color: '#F0F0EA',
+				}
+			}
+		},
+		yAxis: {
+			title: {
+				text: null
+			},
+			labels: {
+				style: {
+					color: '#F0F0EA',
+				}
+			}
+		},
+		tooltip: {
+			headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+			pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+			'<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+			footerFormat: '</table>',
+			shared: true,
+			useHTML: true,
+			borderWidth: 0,
+			backgroundColor: 'rgba(219,219,216,0.8)',
+			shadow: false,
+			dateTimeLabelFormats: {
+				hour:'%A, %b %e, %Y',
+				minute:'%A, %b %e, %Y',
+				week:'%A, %b %e, %Y',
+			}
+		},
+		plotOptions: {
+			column: {
+				pointPadding: 0.2,
+				borderWidth: 0
+			}
+		},
+		series: [{data: []}]
+	});
+
+	const pop_courts = new Highcharts.chart('pop-courts', {
+		chart: {
+			type: 'pie',
+			options3d: {
+				enabled: true,
+				alpha: 45,
+				beta: 0,
+			}
+		},
+		exporting: {
+			filename: 'Популярность видов спорта'
+		},
+		title: {
+			text: 'Популярность видов спорта'
+		},
+		tooltip: {
+			pointFormat: ': <b>{point.percentage:.1f}%</b>'
+		},
+		accessibility: {
+			point: {
+				valueSuffix: '%'
+			}
+		},
+		plotOptions: {
+			pie: {
+				allowPointSelect: true,
+				cursor: 'pointer',
+				depth: 35,
+				dataLabels: {
+					color: '#F0F0EA',
+					enabled: true,
+					format: '{point.name}'
+				},
+				showInLegend: true
+			}
+		},
+		series: [{
+			data: [],
+			colorByPoint: true,
+		}]
+	});
+
+	const proceeds_count = {
+		type: "pie",
+		name: "Сумма",
+		data: [
+			{
+				name: "Клуб",
+				y: 0,
+				colorIndex: 1,
+			},
+			{
+				name: "Клуб возврат",
+				y: 0,
+				colorIndex: 2,
+			},
+			{
+				name: "Go2sport",
+				y: 0,
+				colorIndex: 3,
+			},
+			{
+				name: "Go2sport возврат",
+				y: 0,
+				colorIndex: 4,
+			},
+		],
+		center: [70, 0],
+		size: 70,
+	};
+
+	const proceeds = new Highcharts.chart('proceeds', {
+		chart: {
+			type: 'area',
+			zoomType: 'x'
+		},
+		exporting: {
+			filename: 'Выручка онлайн'
+		},
+		title: {
+			text: 'Выручка онлайн'
+		},
+		tooltip: {
+			headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+			pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+			'<td style="padding:0"><b>{point.y:.1f} &#8381;</b></td></tr>',
+			footerFormat: '</table>',
+		},
+		plotOptions: {
+			area: {
+				fillColor: {
+					linearGradient: {
+						x1: 0,
+						y1: 0,
+						x2: 0,
+						y2: 1
+					},
+					stops: [
+						[0, Highcharts.getOptions().colors[0]],
+						[1, Highcharts.color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+					]
+				},
+				marker: {
+					radius: 2
+				},
+				lineWidth: 1,
+				states: {
+					hover: {
+						lineWidth: 1
+					}
+				},
+				threshold: null
+			}
+		},
+		series: [
+			{
+				name: "Клуб",
+				data: []
+			},
+			{
+				name: "Клуб возврат",
+				data: []
+			},
+			{
+				name: "Go2sport",
+				data: []
+			},
+			{
+				name: "Go2sport возврат",
+				data: []
+			},
+			proceeds_count
+		]
+	});
+
+	const booking_places = new Highcharts.chart('booking-places', {
+		exporting: {
+			filename: 'В среднем бронирований полей'
+		},
+		title: {
+			text: 'В среднем бронирований полей'
+		},
+		legend: {
+			enabled: false
+		},
+		tooltip: {
+			pointFormat: '<tr><td style="padding:0"><b>{point.y}</b></td></tr>',
+		},
+	});
+
+	const booking_place = new Highcharts.chart('booking-place', {
+		exporting: {
+			filename: 'В среднем бронирований по полям'
+		},
+		title: {
+			text: 'В среднем бронирований по полям'
+		},
+		tooltip: {
+			pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+			'<td style="padding:0"><b>{point.y}</b></td></tr>',
+		},
+	});
+
+	const loading_places = new Highcharts.chart('loading-places', {
+		exporting: {
+			filename: 'Общая загруженность площадок'
+		},
+		title: {
+			text: 'Общая загруженность площадок'
+		},
+		legend: {
+			enabled: false
+		},
+		accessibility: {
+			point: {
+				valueSuffix: '%'
+			}
+		},
+		tooltip: {
+			pointFormat: '<tr><td style="padding:0"><b>{point.y:.1f}%</b></td></tr>',
+		},
+	});
+
+	const loading_place = new Highcharts.chart('loading-place', {
+		exporting: {
+			filename: 'Загруженность площадок'
+		},
+		title: {
+			text: 'Загруженность площадок'
+		},
+		accessibility: {
+			point: {
+				valueSuffix: '%'
+			}
+		},
+		tooltip: {
+			pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+			'<td style="padding:0"><b>{point.y}%</b></td></tr>',
+		},
+	});
+
+	const transactions_data = [{
+		type: 'venn',
+		data: [
+			{
+				color: Highcharts.getOptions().colors[0],
+				sets: ['sum'],
+				value: 3,
+				name: 'Выручка',
+				legendIndex: 1,
+				valueSuffix: '&#8381;',
+				dataLabels: {
+					style: {
+						fontSize: '29px'
+					}
+				},
+				custom: {
+					value: 0
+				}
+			},
+			{
+				color: Highcharts.getOptions().colors[1],
+				sets: ['count'],
+				value: 2,
+				name: 'Количество транзакций',
+				legendIndex: 3,
+				dataLabels: {
+					style: {
+						fontSize: '25px'
+					}
+				},
+				custom: {
+					value: 0
+				}
+			},
+			{
+				color: Highcharts.getOptions().colors[2],
+				sets: ['sum', 'count'],
+				value: 1,
+				name: 'Средний чек',
+				legendIndex: 2,
+				valueSuffix: '&#8381;',
+				dataLabels: {
+					style: {
+						fontSize: '27px'
+					}
+				},
+				custom: {
+					value: 0
+				}
+			}
+		]
+	}, {
+		type: '',
+		name: 'Выручка',
+		data: []
+	}, {
+		type: '',
+		name: 'Количество транзакций',
+		data: []
+	}, {
+		type: '',
+		name: 'Средний чек',
+		data: []
+	}];
+
+	const transactions = new Highcharts.chart('transactions', {
+		exporting: {
+			filename: 'Транзакции'
+		},
+		title: {
+			text: 'Транзакции',
+		},
+		legend: {
+			enabled: true,
+			layout: 'vertical',
+			align: 'left',
+			verticalAlign: 'middle',
+			itemHoverStyle: {
+				cursor: 'default'
+			},
+			itemHoverStyle: {
+				color: '#F0F0EA',
+				fill: '#F0F0EA',
+				cursor: 'default'
+			}
+		},
+		plotOptions: {
+			series: {
+				dataLabels: {
+					format: '{point.custom.value}{point.valueSuffix}'
+				},
+				events: {
+					legendItemClick: function (event) {
+						event.preventDefault();
+					}
+				},
+			}
+		},
+		tooltip: {
+			shared: false,
+			headerFormat: '<table>',
+			pointFormat: '<tr><td><span style="color:{point.color}">●</span> {point.name}:</td>\
+				<td style="padding-left:5px;"><b>{point.custom.value}{point.valueSuffix}</b></td></tr>',
+		},
+		xAxis: {
+			visible: false
+		},
+		series: transactions_data
+	});
+
+	const orders_data = [{
+		name: 'Заказы',
+		data: [
+			['Заказы',   0],
+			['Платежи',  0],
+			['Возвраты', 0],
+		]
+	}];
+
+	const orders = new Highcharts.chart('orders', {
+		chart: {
+			type: 'pyramid'
+		},
+		exporting: {
+			filename: 'Заказы онлайн'
+		},
+		title: {
+			text: 'Заказы онлайн',
+			x: -50
+		},
+		plotOptions: {
+			series: {
+				dataLabels: {
+					enabled: true,
+					format: '<b>{point.name}</b> ({point.y})',
+					softConnector: true,
+					style: {
+						fontSize: '16px'
+					}
+				},
+				center: ['40%', '50%'],
+				width: '80%'
+			},
+			dataSorting: {
+				enabled: true
+			},
+		},
+		legend: {
+			enabled: false
+		},
+		tooltip: {
+			shared: false,
+			headerFormat: '<table>',
+			pointFormat: '<tr><td><span style="color:{point.color}">●</span> {point.name}:</td>\
+				<td style="padding-left:5px;"><b>{point.y}</b></td></tr>',
+		},
+		responsive: {
+			rules: [{
+				condition: {
+					maxWidth: 500
+				},
+				chartOptions: {
+					plotOptions: {
+						series: {
+							dataLabels: {
+								inside: true
+							},
+							center: ['50%', '50%'],
+							width: '100%'
+						}
+					}
+				}
+			}]
+		},
+		series: orders_data
+	});
+
+	const booking_admin = new Highcharts.chart('booking_admin', {
+		chart: {
+			type: 'funnel'
+		},
+		exporting: {
+			filename: 'Бронирование через администратора'
+		},
+		title: {
+			text: 'Бронирование через администратора'
+		},
+		plotOptions: {
+			series: {
+				dataLabels: {
+					enabled: true,
+					format: '<b>{point.name}</b> ({point.y:,.0f})',
+					softConnector: true,
+					style: {
+						fontSize: '16px'
+					}
+				},
+				center: ['40%', '50%'],
+				neckWidth: '30%',
+				neckHeight: '25%',
+				width: '80%'
+			},
+			dataSorting: {
+				enabled: true
+			},
+		},
+		tooltip: {
+			shared: false,
+			headerFormat: '<table>',
+			pointFormat: '<tr><td><span style="color:{point.color}">●</span> {point.name}:</td>\
+				<td style="padding-left:5px;"><b>{point.y}</b></td></tr>',
+		},
+		legend: {
+			enabled: false
+		},
+		responsive: {
+			rules: [{
+				condition: {
+					maxWidth: 500
+				},
+				chartOptions: {
+					plotOptions: {
+						series: {
+							dataLabels: {
+								inside: true
+							},
+							center: ['50%', '50%'],
+							width: '100%'
+						}
+					}
+				}
+			}]
+		},
+		series: [{
+			name: 'Бронирования',
+			data: [['', 0], ['', 0], ['', 0], ['', 0]]
+		}]
+	});
+
+	const booking_admin_days_count = {
+		type: "pie",
+		name: "Сумма",
+		data: [
+			{
+				name: "Бронирования",
+				y: 0,
+				colorIndex: 1,
+			},
+			{
+				name: "Наличные",
+				y: 0,
+				colorIndex: 2,
+			},
+			{
+				name: "Банковская карта",
+				y: 0,
+				colorIndex: 3,
+			},
+			{
+				name: "Расчётный счёт",
+				y: 0,
+				colorIndex: 4,
+			},
+		],
+		center: [70, 0],
+		size: 70,
+	};
+
+	const booking_admin_days = new Highcharts.chart('booking_admin_days', {
+		chart: {
+			type: 'area',
+			zoomType: 'x'
+		},
+		exporting: {
+			filename: 'Бронирование через администратора по дням'
+		},
+		title: {
+			text: 'Бронирование через администратора по дням'
+		},
+		tooltip: {
+			headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+			pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+			'<td style="padding:0"><b>{point.y:.1f} &#8381;</b></td></tr>',
+			footerFormat: '</table>',
+		},
+		plotOptions: {
+			area: {
+				fillColor: {
+					linearGradient: {
+						x1: 0,
+						y1: 0,
+						x2: 0,
+						y2: 1
+					},
+					stops: [
+						[0, Highcharts.getOptions().colors[0]],
+						[1, Highcharts.color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+					]
+				},
+				marker: {
+					radius: 2
+				},
+				lineWidth: 1,
+				states: {
+					hover: {
+						lineWidth: 1
+					}
+				},
+				threshold: null
+			}
+		},
+		series: [
+			{
+				name: "Бронирования",
+				data: []
+			},
+			{
+				name: "Наличные",
+				data: []
+			},
+			{
+				name: "Банковская карта",
+				data: []
+			},
+			{
+				name: "Расчётный счёт",
+				data: []
+			},
+			booking_admin_days_count
+		]
+	});
+
+	function loadData() {
+		const date_search = $('#date_search').val().split(' - ');
+		pop_courts.showLoading('<span class="loader huge"></span>');
+		$.ajax(
+			'/cabinet/stat/pop-courts', {
+				data: {
+					date_from: date_search[0],
+					date_to: date_search[1]
+				},
+				success: function(data) {
+					if (data && data.type === 'ok') {
+						let popular = [], pop;
+						for (pop in data.data) {
+							popular.push([pop, data.data[pop]]);
+						}
+						pop_courts.hideLoading();
+						pop_courts.update({
+							series: [{
+								data: popular,
+								colorByPoint: true,
+							}]
+						});
+					}
+				}
+			}
+		);
+		proceeds.showLoading('<span class="loader huge"></span>');
+		$.ajax(
+			'/cabinet/stat/proceeds', {
+				data: {
+					date_from: date_search[0],
+					date_to: date_search[1]
+				},
+				success: function(data) {
+					if (data && data.type === 'ok') {
+						let data_proceeds = [], proceeds_club = [], refund_club = [], proceeds_site = [], refund_site = [],
+							club_name = '', club_refund = '', site_name = '', site_refund = '',
+							date = '', time, sum = [0,0,0,0], names = ['','','',''], i;
+						for (date in data.data) {
+							time = new Date(date);
+							time = time.getTime();
+							proceeds_club.push([time, data.data[date].proceeds_club.value]);
+							sum[0] += data.data[date].proceeds_club.value;
+							refund_club.push([time, data.data[date].refund_club.value]);
+							sum[1] += data.data[date].refund_club.value;
+							proceeds_site.push([time, data.data[date].proceeds_site.value]);
+							sum[2] += data.data[date].proceeds_site.value;
+							refund_site.push([time, data.data[date].refund_site.value]);
+							sum[3] += data.data[date].refund_site.value;
+							if (!club_name) club_name = names[0] = data.data[date].proceeds_club.name;
+							if (!club_refund) club_refund = names[1] = data.data[date].refund_club.name;
+							if (!site_name) site_name = names[2] = data.data[date].proceeds_site.name;
+							if (!site_refund) site_refund = names[3] = data.data[date].refund_site.name;
+						}
+						data_proceeds.push({name:club_name, data:proceeds_club});
+						data_proceeds.push({name:site_name, data:proceeds_site});
+						data_proceeds.push({name:club_refund, data:refund_club});
+						data_proceeds.push({name:site_refund, data:refund_site});
+						for (i = 0; i < proceeds_count.data.length; i++) {
+							proceeds_count.data[i].name = names[i];
+							proceeds_count.data[i].y = sum[i];
+						}
+						console.log(data_proceeds);
+						data_proceeds.push(proceeds_count);
+						proceeds.hideLoading();
+						proceeds.update({
+							series: data_proceeds
+						});
+					}
+				}
+			}
+		);
+		booking_places.showLoading('<span class="loader huge"></span>');
+		$.ajax(
+			'/cabinet/stat/booking-places', {
+				data: {
+					date_from: date_search[0],
+					date_to: date_search[1]
+				},
+				success: function(data) {
+					if (data && data.type === 'ok') {
+						let booking = [], date = '', time;
+						for (date in data.data) {
+							time = new Date(date);
+							time = time.getTime();
+							booking.push([time, data.data[date]]);
+						}
+						booking_places.hideLoading();
+						booking_places.update({
+							series: [{data: booking}]
+						});
+					}
+				}
+			}
+		);
+		booking_place.showLoading('<span class="loader huge"></span>');
+		$.ajax(
+			'/cabinet/stat/booking-place', {
+				data: {
+					date_from: date_search[0],
+					date_to: date_search[1]
+				},
+				success: function(data) {
+					if (data && data.type === 'ok') {
+						let booking = [], places = {}, date = '', place = '', time, i;
+						for (date in data.data) {
+							time = new Date(date);
+							time = time.getTime();
+							for (place in data.data[date]) {
+								if (!places[place]) places[place] = [];
+								places[place].push([time, data.data[date][place]]);
+							}
+						}
+						for (place in places) {
+							booking.push({name:place, data:places[place]});
+						}
+						if (booking_place.series.length !== booking.length) {
+							for (i = booking_place.series.length; i < booking.length; i++) {
+								booking_place.initSeries({});
+							}
+						}
+						booking_place.hideLoading();
+						booking_place.update({
+							series: booking
+						});
+					}
+				}
+			}
+		);
+		loading_places.showLoading('<span class="loader huge"></span>');
+		$.ajax(
+			'/cabinet/stat/loading-places', {
+				data: {
+					date_from: date_search[0],
+					date_to: date_search[1]
+				},
+				success: function(data) {
+					if (data && data.type === 'ok') {
+						let loading = [], date = '', time;
+						for (date in data.data) {
+							time = new Date(date);
+							time = time.getTime();
+							loading.push([time, data.data[date]]);
+						}
+						loading_places.hideLoading();
+						loading_places.update({
+							series: [{data: loading}]
+						});
+					}
+				}
+			}
+		);
+		loading_place.showLoading('<span class="loader huge"></span>');
+		$.ajax(
+			'/cabinet/stat/loading-place', {
+				data: {
+					date_from: date_search[0],
+					date_to: date_search[1]
+				},
+				success: function(data) {
+					if (data && data.type === 'ok') {
+						let loading = [], places = {}, date = '', place = '', time;
+						for (date in data.data) {
+							time = new Date(date);
+							time = time.getTime();
+							for (place in data.data[date]) {
+								if (!places[place]) places[place] = [];
+								places[place].push([time, data.data[date][place]]);
+							}
+						}
+						for (place in places) {
+							loading.push({name:place, data:places[place]});
+						}
+						if (loading_place.series.length !== loading.length) {
+							for (i = loading_place.series.length; i < loading.length; i++) {
+								loading_place.initSeries({});
+							}
+						}
+						loading_place.hideLoading();
+						loading_place.update({
+							series: loading
+						});
+					}
+				}
+			}
+		);
+		transactions.showLoading('<span class="loader huge"></span>');
+		$.ajax(
+			'/cabinet/stat/transactions', {
+				data: {
+					date_from: date_search[0],
+					date_to: date_search[1]
+				},
+				success: function(data) {
+					if (data && data.type === 'ok') {
+						transactions_data[0].data[0].custom.value = data.data.sum;
+						transactions_data[0].data[1].custom.value = data.data.count;
+						transactions_data[0].data[2].custom.value = data.data.average;
+
+						transactions.hideLoading();
+						transactions.update({
+							series: transactions_data
+						});
+					}
+				}
+			}
+		);
+		orders.showLoading('<span class="loader huge"></span>');
+		$.ajax(
+			'/cabinet/stat/orders', {
+				data: {
+					date_from: date_search[0],
+					date_to: date_search[1]
+				},
+				success: function(data) {
+					if (data && data.type === 'ok') {
+						orders_data[0].data[0][1] = data.data.orders;
+						orders_data[0].data[1][1] = data.data.payments;
+						orders_data[0].data[2][1] = data.data.refunds;
+
+						orders.hideLoading();
+						orders.update({
+							series: orders_data
+						});
+					}
+				}
+			}
+		);
+		booking_admin.showLoading('<span class="loader huge"></span>');
+		$.ajax(
+			'/cabinet/stat/booking_admin', {
+				data: {
+					date_from: date_search[0],
+					date_to: date_search[1]
+				},
+				success: function(data) {
+					if (data && data.type === 'ok') {
+						let booking_data = [], type;
+						for (type in data.data) {
+							switch (type) {
+								case 'bookings':
+									booking_data.push(['Бронирования', data.data[type]]);
+									break;
+								case 'cash':
+									booking_data.push(['Наличные', data.data[type]]);
+									break;
+								case 'card':
+									booking_data.push(['Банковская карта', data.data[type]]);
+									break;
+								case 'settlement_account':
+									booking_data.push(['Расчётный счёт', data.data[type]]);
+									break;
+								default:
+							}
+						}
+						booking_admin.hideLoading();
+						booking_admin.update({
+							series: [{
+								name: 'Бронирования',
+								data: booking_data
+							}]
+						});
+					}
+				}
+			}
+		);
+		booking_admin_days.showLoading('<span class="loader huge"></span>');
+		$.ajax(
+			'/cabinet/stat/booking_admin_days', {
+				data: {
+					date_from: date_search[0],
+					date_to: date_search[1]
+				},
+				success: function(data) {
+					if (data && data.type === 'ok') {
+						let booking_admin_days_data = [], bookings = [], cash = [], card = [], settlement_account = [],
+							bookings_name = '', cash_name = '', card_name = '', settlement_account_name = '',
+							date = '', time, sum = [0,0,0,0], names = ['','','',''], i;
+						for (date in data.data) {
+							time = new Date(date);
+							time = time.getTime();
+							bookings.push([time, data.data[date].bookings.value]);
+							sum[0] += data.data[date].bookings.value;
+							cash.push([time, data.data[date].cash.value]);
+							sum[1] += data.data[date].cash.value;
+							card.push([time, data.data[date].card.value]);
+							sum[2] += data.data[date].card.value;
+							settlement_account.push([time, data.data[date].settlement_account.value]);
+							sum[3] += data.data[date].settlement_account.value;
+							if (!bookings_name) bookings_name = names[0] = data.data[date].bookings.name;
+							if (!cash_name) cash_name = names[1] = data.data[date].cash.name;
+							if (!card_name) card_name = names[2] = data.data[date].card.name;
+							if (!settlement_account_name) settlement_account_name = names[3] = data.data[date].settlement_account.name;
+						}
+						booking_admin_days_data.push({name:bookings_name, data:bookings});
+						booking_admin_days_data.push({name:card_name, data:card});
+						booking_admin_days_data.push({name:cash_name, data:cash});
+						booking_admin_days_data.push({name:settlement_account_name, data:settlement_account});
+						for (i = 0; i < booking_admin_days_count.data.length; i++) {
+							booking_admin_days_count.data[i].name = names[i];
+							booking_admin_days_count.data[i].y = sum[i];
+						}
+						booking_admin_days_data.push(booking_admin_days_count);
+						booking_admin_days.hideLoading();
+						booking_admin_days.update({
+							series: booking_admin_days_data
+						});
+					}
+				}
+			}
+		);
+	}
+
+	$('#date_search').change(function () {
+		$('#date_btn button').each(function () {
+			$(this).removeClass('active');
+		});
+		loadData();
+	});
+
+	$('#date_btn button').click(function () {
+		if (!$(this).hasClass('active')) {
+			$('#date_btn button').each(function () {
+				$(this).removeClass('active');
+			});
+			$(this).addClass('active');
+			$('#date_search').val($(this).val());
+			loadData();
+		}
+	});
+
+	loadData();
+});

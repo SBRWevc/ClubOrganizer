@@ -1,0 +1,357 @@
+﻿<Page x:Class="ClubOrganizer.Pages.List_contracts.List_contracts"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="900" 
+      d:DesignWidth="1600"
+      FontFamily="Poppins">
+    <Grid>
+        <Grid Margin="108 38 38 58"
+              VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="43"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Grid.Row="0"
+                        Grid.ColumnSpan="5">
+                <Path Data="M240,130 L345,130" 
+                      Margin="0 3 0 0"
+                      Height="2" 
+                      Grid.Row="1" 
+                      Stroke="Black" 
+                      Stretch="Fill" 
+                      VerticalAlignment="Center" 
+                      Width="50"/>
+                <TextBlock Text="Club Oganizer"
+                           FontSize="24"
+                           FontWeight="Bold"
+                           Foreground="Coral"
+                           VerticalAlignment="Center"
+                           Margin="15 0 0 0"/>
+                <Path Grid.Column="1" 
+                      Data="M720,60 L720,150"
+                      Fill="#FFF4F4F5" 
+                      HorizontalAlignment="Center" 
+                      Height="45" 
+                      Grid.Row="2" 
+                      Stroke="Black" 
+                      Stretch="Fill" 
+                      VerticalAlignment="Center" 
+                      Width="1"
+                      Margin="10 0"/>
+                <TextBlock Text="Договоры"
+                           FontSize="24"
+                           FontWeight="Bold"
+                           Foreground="Black"
+                           VerticalAlignment="Center"
+                           Margin="0 0 15 0"/>
+                <Path Data="M240,130 L345,130" 
+                      Margin="0 3 0 0"
+                      Height="2" 
+                      Grid.Row="1" 
+                      Stroke="Black" 
+                      Stretch="Fill" 
+                      VerticalAlignment="Center" 
+                      Width="50"/>
+            </StackPanel>
+            <DataGrid x:Name="DataContracts"
+                      Grid.Row="1"
+                      Background="White"
+                      Style="{StaticResource MaterialDesignDataGrid}"
+                      HeadersVisibility="Column"
+                      ColumnWidth="1*"
+                      VerticalAlignment="Top"
+                      TextBlock.TextAlignment="Left"
+                      CanUserAddRows="False"
+                      CanUserDeleteRows="False"
+                      CanUserReorderColumns="False"
+                      CanUserResizeColumns="False"
+                      CanUserSortColumns="True"
+                      IsReadOnly="True"
+                      Foreground="Gray"
+                      Margin="0 10 0 0"
+                      Height="751"
+                      BorderThickness="1"
+                      BorderBrush="Black"
+                      ScrollViewer.CanContentScroll="True">
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn ElementStyle="{StaticResource MaterialDesignDataGridCheckBoxColumnStyle}"
+                                            EditingElementStyle="{StaticResource MaterialDesignDataGridCheckBoxColumnEditingStyle}"
+                                            Width="60"
+                                            IsReadOnly="False"
+                                            CanUserSort="False">
+                    </DataGridCheckBoxColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <Grid Name="Succes"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Bottom"
+              Margin="740 0 0 -90"
+              Height="70">
+            <materialDesign:PackIcon Kind="DeleteOutline"
+                                     Height="32"
+                                     Width="32"
+                                     VerticalAlignment="Center"
+                                     Foreground="Coral"
+                                     Name="Icon"/>
+        </Grid>
+        <Grid Name="BottombarSearch"
+              Margin="-160 0 0 -90"
+              Grid.Row="2"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Bottom"
+              Height="70">
+            <Border CornerRadius="8"
+                    Background="White">
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="0"
+                                      Color="Gray"
+                                      BlurRadius="20"/>
+                </Border.Effect>
+            </Border>
+            <StackPanel Orientation="Horizontal">
+                <ComboBox Name="ClientList"
+                          Style="{StaticResource MaterialDesignOutlinedComboBox}"
+                          materialDesign:HintAssist.Hint="Поиск существующего клиента"
+                          Background="Transparent"
+                          materialDesign:HintAssist.Background="White"
+                          ItemsSource="{Binding}"
+                          IsEditable="True"
+                          Width="400"
+                          Margin="10 0 0 0"
+                          GotFocus="ClientList_GotFocus"/>
+                <Border CornerRadius="8"
+                        Background="#2c3e50"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Left"
+                        Margin="20 0 0 0">
+                    <StackPanel Background="Transparent"
+                                Orientation="Horizontal">
+                        <Button Name="ClientSearch"
+                                Grid.Row="2"
+                                Background="Transparent"
+                                Foreground="White"
+                                BorderBrush="White"
+                                BorderThickness="0"
+                                Style="{StaticResource MaterialDesignPaperButton}"
+                                materialDesign:ElevationAssist.Elevation="Dp0"
+                                materialDesign:ButtonAssist.CornerRadius="8 0 0 8"
+                                Content="{materialDesign:PackIcon Kind=Search, Size=30}"
+                                ToolTip="Поиск договоров по клиенту"
+                                ToolTipService.Placement="Bottom"
+                                Padding="0"
+                                Width="70"
+                                Height="70"
+                                Click="ClientSearch_Click"/>
+                        <Button Name="ClientReset"
+                                Grid.Row="2"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Left"
+                                Background="Transparent"
+                                Foreground="White"
+                                BorderBrush="White"
+                                BorderThickness="0"
+                                Style="{StaticResource MaterialDesignPaperButton}"
+                                materialDesign:ElevationAssist.Elevation="Dp0"
+                                materialDesign:ButtonAssist.CornerRadius="0 8 8 0"
+                                Content="{materialDesign:PackIcon Kind=Cancel, Size=30}"
+                                ToolTip="Сбросить выбор клиента"
+                                ToolTipService.Placement="Top"
+                                Padding="0"
+                                Width="70"
+                                Height="70"
+                                Click="ClientReset_Click"/>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
+        <Grid Name="Bottombar"
+              Margin="740 0 0 -90"
+              Grid.Row="2"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Bottom"
+              Height="70">
+            <Border CornerRadius="8"
+                    Background="#2c3e50">
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="0"
+                                      Color="Gray"
+                                      BlurRadius="20"/>
+                </Border.Effect>
+            </Border>
+            <StackPanel Orientation="Horizontal">
+                <Button Name="Update"
+                        Grid.Row="3"
+                        VerticalAlignment="Center"
+                        Background="Transparent"
+                        Foreground="White"
+                        BorderBrush="White"
+                        BorderThickness="0"
+                        Style="{StaticResource MaterialDesignPaperButton}" 
+                        materialDesign:ElevationAssist.Elevation="Dp0"
+                        materialDesign:ButtonAssist.CornerRadius="8"
+                        Content="{materialDesign:PackIcon Kind=Update, Size=30}"
+                        ToolTip="Обновить"
+                        ToolTipService.Placement="Top"
+                        Cursor="Hand"
+                        Padding="0"
+                        Width="70"
+                        Height="70"
+                        Click="Update_Click"/>
+                <Border Background="White"
+                        CornerRadius="8">
+                    <StackPanel Orientation="Horizontal">
+                        <Button Name="Pay"
+                                Grid.Row="3"
+                                VerticalAlignment="Center"
+                                Background="Transparent"
+                                Foreground="Coral"
+                                BorderThickness="0"
+                                Style="{StaticResource MaterialDesignPaperButton}" 
+                                materialDesign:ElevationAssist.Elevation="Dp0"
+                                materialDesign:ButtonAssist.CornerRadius="8"
+                                Content="{materialDesign:PackIcon Kind=AccountPaymentOutline, Size=30}"
+                                ToolTip="Оплатить"
+                                ToolTipService.Placement="Top"
+                                Cursor="Hand"
+                                Padding="0"
+                                Width="70"
+                                Height="70"
+                                Click="Pay_Click"/>
+                        <Button Name="Refund"
+                                Grid.Row="3"
+                                VerticalAlignment="Center"
+                                Background="Transparent"
+                                Foreground="Coral"
+                                BorderThickness="0"
+                                Style="{StaticResource MaterialDesignPaperButton}" 
+                                materialDesign:ElevationAssist.Elevation="Dp0"
+                                materialDesign:ButtonAssist.CornerRadius="8"
+                                Content="{materialDesign:PackIcon Kind=CashRefund, Size=30}"
+                                ToolTip="Возврат"
+                                ToolTipService.Placement="Top"
+                                Cursor="Hand"
+                                Padding="0"
+                                Width="70"
+                                Height="70"
+                                Click="Refund_Click"/>
+                    </StackPanel>
+                </Border>
+                <Button Name="Print"
+                        Grid.Row="3"
+                        VerticalAlignment="Center"
+                        Background="Transparent"
+                        Foreground="White"
+                        BorderBrush="White"
+                        BorderThickness="0"
+                        Style="{StaticResource MaterialDesignPaperButton}" 
+                        materialDesign:ElevationAssist.Elevation="Dp0"
+                        materialDesign:ButtonAssist.CornerRadius="8"
+                        Content="{materialDesign:PackIcon Kind=PrinterOutline, Size=30}"
+                        ToolTip="Печать"
+                        ToolTipService.Placement="Top"
+                        Cursor="Hand"
+                        Padding="0"
+                        Width="70"
+                        Height="70"
+                        Click="Print_Click"/>
+            </StackPanel>
+        </Grid>
+        <materialDesign:DialogHost Name="Main_Dialog"
+                                   CloseOnClickAway="False"
+                                   DialogTheme="Inherit"
+                                   OverlayBackground="{DynamicResource MaterialDesignShadowBrush}"
+                                   Placement="Center"
+                                   DialogBackground="Transparent">
+            <materialDesign:DialogHost.DialogContent>
+                <StackPanel VerticalAlignment="Center"
+                            HorizontalAlignment="Center">
+                    <Border Grid.Row="1"
+                            Grid.Column="1"
+                            VerticalAlignment="Center"
+                            Width="380"
+                            Background="#2c3e50"
+                            CornerRadius="8">
+                        <StackPanel Margin="15">
+                            <TextBlock Text="Оплатить?"
+                                       FontSize="25"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Top"
+                                       Margin="0 0 0 20"
+                                       Foreground="White"/>
+                            <Border CornerRadius="5"
+                                    Background="White">
+                                <StackPanel>
+                                    <StackPanel Orientation="Horizontal"
+                                                HorizontalAlignment="Center">
+                                        <TextBlock Text="Сумма к оплате:"
+                                                   FontSize="15"
+                                                   Margin="12 12 15 12"/>
+                                        <TextBlock Name="Rest"
+                                                   FontSize="15"
+                                                   Foreground="Coral"
+                                                   FontWeight="Bold"
+                                                   Margin="15 12 12 12"/>
+                                    </StackPanel>
+                                    <TextBox Name="Sum"
+                                             Background="Transparent"
+                                             materialDesign:HintAssist.Background="White"
+                                             Style="{StaticResource MaterialDesignOutlinedTextBox}"
+                                             materialDesign:HintAssist.Hint="Введите сумму оплаты"
+                                             Margin="12"/>
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+                    </Border>
+                    <Border Margin="0 20 0 0"
+                            HorizontalAlignment="Center"
+                            Background="#2c3e50"
+                            CornerRadius="8"
+                            Height="50">
+                        <StackPanel Orientation="Horizontal">
+                            <Border CornerRadius="8"
+                                    Background="White">
+                                <Button x:Name="PayRest"
+                                        Background="Transparent"
+                                        Foreground="Coral"
+                                        BorderThickness="0"
+                                        Style="{StaticResource MaterialDesignPaperButton}"
+                                        materialDesign:ElevationAssist.Elevation="Dp0"
+                                        materialDesign:ButtonAssist.CornerRadius="8"
+                                        Content="Да"
+                                        FontWeight="Thin"
+                                        FontSize="16"
+                                        Height="50"
+                                        Width="60"
+                                        Click="PayRest_Click" 
+                                        Cursor="Hand"/>
+                            </Border>
+                            <Button x:Name="Cancel"
+                                    Background="Transparent"
+                                    Foreground="White"
+                                    BorderBrush="White"
+                                    BorderThickness="0"
+                                    Style="{StaticResource MaterialDesignPaperButton}"
+                                    materialDesign:ElevationAssist.Elevation="Dp0"
+                                    materialDesign:ButtonAssist.CornerRadius="8"
+                                    Content="Нет"
+                                    FontWeight="Thin"
+                                    FontSize="16"
+                                    Height="50"
+                                    Width="60"
+                                    Click="Cancel_Click" 
+                                    Cursor="Hand"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+    </Grid>
+</Page>

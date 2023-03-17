@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Main.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Auth\Auth.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Fast_Rent\Fast_Rent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Fast_Tennis\Fast_Tennis.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Go2Sport\Go2Sport.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Greeting\Greeting.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\List_black\List_black.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\List_clients\List_clients.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\List_contracts\List_contracts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\List_services\List_services.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Mail\Mail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\NewUser\CreateUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Payment\Payment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Profile\UserProfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Requisites\Requisites.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Screensaver\Screensaver.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Users\Users.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Auth\Auth.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Fast_Rent\Fast_Rent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Fast_Tennis\Fast_Tennis.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Go2Sport\Go2Sport.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Greeting\Greeting.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\List_black\List_black.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\List_clients\List_clients.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\List_contracts\List_contracts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\List_services\List_services.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Mail\Mail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\NewUser\CreateUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Payment\Payment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Profile\UserProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Requisites\Requisites.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Screensaver\Screensaver.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Users\Users.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

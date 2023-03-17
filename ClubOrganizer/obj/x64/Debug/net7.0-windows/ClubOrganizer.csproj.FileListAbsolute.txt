@@ -1,0 +1,226 @@
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.csproj.AssemblyReference.cache
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Main.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\App.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Main.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Auth\Auth.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\App.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer_MarkupCompile.cache
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.exe
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.deps.json
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.runtimeconfig.json
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.pdb
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\MaterialDesignColors.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Auth\Auth.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.g.resources
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.AssemblyInfoInputs.cache
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.AssemblyInfo.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.csproj.CoreCompileInputs.cache
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.csproj.CopyComplete
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\refint\ClubOrganizer.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.pdb
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.genruntimeconfig.cache
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ref\ClubOrganizer.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\msvcr100.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Resources\Docx\sample.docx
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Resources\Docx\sample_ser.docx
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\SQLite.Interop.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\System.Data.SQLite.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Go2Sport\Go2Sport.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Go2Sport\Go2Sport.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer_Content.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Mail\Mail.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Mail\Mail.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Requisites\Requisites.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Requisites\Requisites.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Fast_Rent\Fast_Rent.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Fast_Tennis\Fast_Tennis.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_contracts\List_contracts.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_services\List_services.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Fast_Rent\Fast_Rent.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Fast_Tennis\Fast_Tennis.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_contracts\List_contracts.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_services\List_services.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_black\List_black.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_clients\List_clients.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_black\List_black.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_clients\List_clients.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Profile\UserProfile.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Users\Users.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Profile\UserProfile.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Users\Users.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\NewUser\CreateUser.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\NewUser\CreateUser.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Greeting\Greeting.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Greeting\Greeting.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Screensaver\Screensaver.baml
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Screensaver\Screensaver.g.cs
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\TemplateEngine.Docx.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Resources\Docx\sample_date.docx
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Xceed.Document.NET5.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Xceed.Words.NET5.dll
+C:\Users\evc\source\repos\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Resources\Logo\logo.ico
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.exe
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Resources\Logo\logo.ico
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\msvcr100.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Resources\Docx\sample.docx
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Resources\Docx\sample_date.docx
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Resources\Docx\sample_ser.docx
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\SQLite.Interop.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.deps.json
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.runtimeconfig.json
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.pdb
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\DocumentFormat.OpenXml.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Xceed.Document.NET5.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Xceed.Words.NET5.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\MaterialDesignColors.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\MaterialDesignThemes.Wpf.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Microsoft.Web.WebView2.Core.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Microsoft.Web.WebView2.WinForms.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Microsoft.Web.WebView2.Wpf.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Newtonsoft.Json.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\TemplateEngine.Docx.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\System.Data.SQLite.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.csproj.AssemblyReference.cache
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Main.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Auth\Auth.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Fast_Rent\Fast_Rent.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Fast_Tennis\Fast_Tennis.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Go2Sport\Go2Sport.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Greeting\Greeting.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_black\List_black.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_clients\List_clients.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_contracts\List_contracts.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_services\List_services.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Mail\Mail.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\NewUser\CreateUser.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Payment\Payment.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Profile\UserProfile.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Requisites\Requisites.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Screensaver\Screensaver.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Users\Users.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\App.baml
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Main.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Auth\Auth.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Fast_Rent\Fast_Rent.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Fast_Tennis\Fast_Tennis.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Go2Sport\Go2Sport.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Greeting\Greeting.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_black\List_black.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_clients\List_clients.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_contracts\List_contracts.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_services\List_services.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Mail\Mail.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\NewUser\CreateUser.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Payment\Payment.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Profile\UserProfile.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Requisites\Requisites.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Screensaver\Screensaver.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Users\Users.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\App.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer_Content.g.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer_MarkupCompile.cache
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.g.resources
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.AssemblyInfoInputs.cache
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.AssemblyInfo.cs
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.csproj.CoreCompileInputs.cache
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.csproj.CopyComplete
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\refint\ClubOrganizer.dll
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.pdb
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.genruntimeconfig.cache
+F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ref\ClubOrganizer.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.exe
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Resources\Logo\logo.ico
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\msvcr100.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Resources\Docx\sample.docx
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Resources\Docx\sample_date.docx
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Resources\Docx\sample_ser.docx
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\SQLite.Interop.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.deps.json
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.runtimeconfig.json
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\ClubOrganizer.pdb
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Xceed.Document.NET5.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Xceed.Words.NET5.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\MaterialDesignColors.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\TemplateEngine.Docx.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows\System.Data.SQLite.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.csproj.AssemblyReference.cache
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Main.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Auth\Auth.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Fast_Rent\Fast_Rent.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Fast_Tennis\Fast_Tennis.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Go2Sport\Go2Sport.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Greeting\Greeting.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_black\List_black.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_clients\List_clients.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_contracts\List_contracts.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_services\List_services.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Mail\Mail.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\NewUser\CreateUser.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Payment\Payment.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Profile\UserProfile.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Requisites\Requisites.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Screensaver\Screensaver.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Users\Users.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\App.baml
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Main.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Auth\Auth.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Fast_Rent\Fast_Rent.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Fast_Tennis\Fast_Tennis.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Go2Sport\Go2Sport.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Greeting\Greeting.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_black\List_black.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_clients\List_clients.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_contracts\List_contracts.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\List_services\List_services.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Mail\Mail.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\NewUser\CreateUser.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Payment\Payment.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Profile\UserProfile.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Requisites\Requisites.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Screensaver\Screensaver.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\Pages\Users\Users.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\App.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer_Content.g.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer_MarkupCompile.cache
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.g.resources
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.AssemblyInfoInputs.cache
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.AssemblyInfo.cs
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.csproj.CoreCompileInputs.cache
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.csproj.CopyComplete
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\refint\ClubOrganizer.dll
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.pdb
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ClubOrganizer.genruntimeconfig.cache
+C:\Users\evc\OneDrive\Рабочий стол\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\ref\ClubOrganizer.dll

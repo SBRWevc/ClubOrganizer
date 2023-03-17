@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Platforms>x64</Platforms>
+    <ApplicationIcon>Resources\Logo\logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Avatar\dev.png" />
+    <None Remove="Resources\Avatar\man.png" />
+    <None Remove="Resources\Avatar\neutral.png" />
+    <None Remove="Resources\Avatar\woman.png" />
+    <None Remove="Resources\Logo\logo.ico" />
+    <None Remove="Resources\Logo\logo.png" />
+    <None Remove="Resources\Logo\logo_text.png" />
+    <None Remove="Resources\Logo\logo_text_conf.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Logo\logo.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocX" Version="2.4.0" />
+    <PackageReference Include="MaterialDesignColors" Version="2.1.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1587.40" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="TemplateEngine.Docx" Version="1.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>C:\Users\evc\OneDrive\Документы\System.Data.SQLite.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Avatar\dev.png" />
+    <Resource Include="Resources\Avatar\man.png" />
+    <Resource Include="Resources\Avatar\neutral.png" />
+    <Resource Include="Resources\Avatar\woman.png" />
+    <Resource Include="Resources\Logo\logo.ico" />
+    <Resource Include="Resources\Logo\logo.png" />
+    <Resource Include="Resources\Logo\logo_text.png" />
+    <Resource Include="Resources\Logo\logo_text_conf.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="msvcr100.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Docx\sample.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Docx\sample_date.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Docx\sample_ser.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
