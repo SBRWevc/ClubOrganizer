@@ -1,0 +1,24 @@
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows10.0.22621.0\Club Organizer.exe
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows10.0.22621.0\Club Organizer.deps.json
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows10.0.22621.0\Club Organizer.runtimeconfig.json
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows10.0.22621.0\Club Organizer.dll
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows10.0.22621.0\Club Organizer.pdb
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows10.0.22621.0\Microsoft.Windows.SDK.NET.dll
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\bin\x64\Debug\net7.0-windows10.0.22621.0\WinRT.Runtime.dll
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\ClubOrganizer.csproj.AssemblyReference.cache
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\03_View\WindowConfiguration.g.cs
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\App.g.cs
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\Club Organizer_MarkupCompile.cache
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\Club Organizer_MarkupCompile.lref
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\03_View\WindowConfiguration.baml
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\Club Organizer.g.resources
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\ClubOrganizer.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\ClubOrganizer.AssemblyInfoInputs.cache
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\ClubOrganizer.AssemblyInfo.cs
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\ClubOrganizer.csproj.CoreCompileInputs.cache
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\ClubOrganizer.csproj.CopyComplete
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\Club Organizer.dll
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\refint\Club Organizer.dll
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\Club Organizer.pdb
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\ClubOrganizer.genruntimeconfig.cache
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\ref\Club Organizer.dll

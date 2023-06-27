@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows\
 ClubOrganizer
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-F:\Projects\Development\App\ClubOrganizer\ClubOrganizer\ClubOrganizer\App.xaml
-171838906052
-2-614956259
-911309251548
-211-34532840
-Main.xaml;Pages\Auth\Auth.xaml;Pages\Fast_Rent\Fast_Rent.xaml;Pages\Fast_Tennis\Fast_Tennis.xaml;Pages\Go2Sport\Go2Sport.xaml;Pages\Greeting\Greeting.xaml;Pages\List_black\List_black.xaml;Pages\List_clients\List_clients.xaml;Pages\List_contracts\List_contracts.xaml;Pages\List_services\List_services.xaml;Pages\Mail\Mail.xaml;Pages\NewUser\CreateUser.xaml;Pages\Payment\Payment.xaml;Pages\Profile\UserProfile.xaml;Pages\Requisites\Requisites.xaml;Pages\Screensaver\Screensaver.xaml;Pages\Users\Users.xaml;
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\App.xaml
+1186996977
 
-False
+5-1420036769
+1981827736222
+03_View\WindowConfiguration.xaml;
+
+True
 
