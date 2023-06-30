@@ -1,0 +1,56 @@
+﻿<Page x:Class="ClubOrganizer._03_View.Pages.Configuration.PageCreateUser"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+      
+      xmlns:ui="http://schemas.modernwpf.com/2019"
+      ui:ThemeManager.RequestedTheme="Light"
+      
+      xmlns:vm="clr-namespace:ClubOrganizer._02_ModelView.Pages.Configuration"
+      xmlns:beh="clr-namespace:ClubOrganizer._05_Functions.Behaviors">
+
+    <Page.DataContext>
+        <vm:ViewModelCreateUser/>
+    </Page.DataContext>
+    <Page.Resources>
+        <beh:PasswordBoxBindingBehavior x:Key="PasswordBoxBindingBehavior"/>
+    </Page.Resources>
+
+    <ui:SimpleStackPanel Spacing="10"
+                         Width="400">
+        <TextBlock Text="Создание пользователя" 
+                   HorizontalAlignment="Center"
+                   FontWeight="DemiBold" 
+                   FontSize="35"/>        
+        <TextBox HorizontalAlignment="Stretch"
+                 ui:ControlHelper.Header="Логин"
+                 ui:ControlHelper.PlaceholderText="Введите логин"
+                 Text="{Binding Login}"/>
+        <PasswordBox HorizontalAlignment="Stretch"
+                     ui:ControlHelper.Header="Пароль"
+                     ui:ControlHelper.PlaceholderText="Введите пароль">
+            <i:Interaction.Behaviors>
+                <beh:PasswordBoxBindingBehavior Password="{Binding Password, Mode=TwoWay}"/>
+            </i:Interaction.Behaviors>
+        </PasswordBox>
+        <TextBox HorizontalAlignment="Stretch"
+                 ui:ControlHelper.Header="Фамилия"
+                 ui:ControlHelper.PlaceholderText="Введите фамилию"/>
+        <TextBox HorizontalAlignment="Stretch"
+                 ui:ControlHelper.Header="Имя"
+                 ui:ControlHelper.PlaceholderText="Введите имя"/>
+        <TextBox HorizontalAlignment="Stretch"
+                 ui:ControlHelper.Header="Отчество"
+                 ui:ControlHelper.PlaceholderText="Введите отчество"/>
+        <ComboBox HorizontalAlignment="Stretch"
+                  ui:ControlHelper.Header="Пол"
+                  ui:ControlHelper.PlaceholderText="Выберите пол"
+                  IsEditable="False">
+            <ComboBoxItem Content="Мужской"/>
+            <ComboBoxItem Content="Женский"/>
+        </ComboBox>
+        <TextBox HorizontalAlignment="Stretch"
+                 ui:ControlHelper.Header="Должность"
+                 ui:ControlHelper.PlaceholderText="Введите должность"/> 
+    </ui:SimpleStackPanel>
+</Page>

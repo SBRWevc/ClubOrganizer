@@ -7,11 +7,23 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="03_View\Pages\Configuration\PageCreateUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="03_View\Pages\Configuration\PageWelcome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="03_View\WindowConfiguration.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="03_View\Pages\Configuration\PageCreateUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="03_View\Pages\Configuration\PageWelcome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="03_View\WindowConfiguration.xaml">
       <SubType>Designer</SubType>
     </Page>
