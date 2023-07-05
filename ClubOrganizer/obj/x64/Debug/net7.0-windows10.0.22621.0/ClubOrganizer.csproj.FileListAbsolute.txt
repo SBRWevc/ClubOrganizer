@@ -199,3 +199,5 @@ E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\
 E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\03_View\Pages\Configuration\PageWelcome.g.cs
 E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\03_View\Pages\Configuration\PageCreateUser.g.cs
 E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\03_View\Pages\Configuration\PageCreateUser.baml
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\03_View\Pages\Configuration\PageCreatePositions.g.cs
+E:\C#\Beta\ClubOrganizer\ClubOrganizer\obj\x64\Debug\net7.0-windows10.0.22621.0\03_View\Pages\Configuration\PageCreatePositions.baml

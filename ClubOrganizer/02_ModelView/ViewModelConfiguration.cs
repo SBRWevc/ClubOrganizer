@@ -19,7 +19,8 @@ namespace ClubOrganizer._02_ModelView
         #region Pages
 
         readonly Page Page1 = new PageWelcome();
-        readonly Page Page2 = new PageCreateUser();
+        readonly Page Page2 = new PageCreatePositions();
+        readonly Page Page3 = new PageCreateUser();
 
         private Page _currentPage;
         public Page CurrentPage
@@ -70,8 +71,9 @@ namespace ClubOrganizer._02_ModelView
             }
             else if (CurrentPage == Page2)
             {
-                
+                CurrentPage = Page3;
             }
+
         }
         private void BackPage()
         {
@@ -79,7 +81,10 @@ namespace ClubOrganizer._02_ModelView
             {
                 CurrentPage = Page1;
             }
-            
+            else if (CurrentPage == Page3)
+            {
+                CurrentPage = Page2;
+            }
         }
 
         #endregion

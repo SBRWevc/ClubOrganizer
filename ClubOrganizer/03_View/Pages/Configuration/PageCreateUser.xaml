@@ -35,22 +35,28 @@
         </PasswordBox>
         <TextBox HorizontalAlignment="Stretch"
                  ui:ControlHelper.Header="Фамилия"
-                 ui:ControlHelper.PlaceholderText="Введите фамилию"/>
+                 ui:ControlHelper.PlaceholderText="Введите фамилию"
+                 Text="{Binding Surname}"/>
         <TextBox HorizontalAlignment="Stretch"
                  ui:ControlHelper.Header="Имя"
-                 ui:ControlHelper.PlaceholderText="Введите имя"/>
+                 ui:ControlHelper.PlaceholderText="Введите имя"
+                 Text="{Binding Name}"/>
         <TextBox HorizontalAlignment="Stretch"
                  ui:ControlHelper.Header="Отчество"
-                 ui:ControlHelper.PlaceholderText="Введите отчество"/>
+                 ui:ControlHelper.PlaceholderText="Введите отчество"
+                 Text="{Binding Patronymic}"/>
         <ComboBox HorizontalAlignment="Stretch"
                   ui:ControlHelper.Header="Пол"
                   ui:ControlHelper.PlaceholderText="Выберите пол"
-                  IsEditable="False">
+                  IsEditable="False"
+                  Text="{Binding Gender}">
             <ComboBoxItem Content="Мужской"/>
             <ComboBoxItem Content="Женский"/>
         </ComboBox>
-        <TextBox HorizontalAlignment="Stretch"
-                 ui:ControlHelper.Header="Должность"
-                 ui:ControlHelper.PlaceholderText="Введите должность"/> 
+        <ComboBox HorizontalAlignment="Stretch"
+                  ui:ControlHelper.Header="Должность"
+                  ui:ControlHelper.PlaceholderText="Выберите должность"
+                  IsEditable="False"
+                  Text="{Binding Position}"/>
     </ui:SimpleStackPanel>
 </Page>

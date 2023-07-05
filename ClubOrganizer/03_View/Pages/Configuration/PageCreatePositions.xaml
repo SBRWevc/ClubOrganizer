@@ -1,0 +1,180 @@
+﻿<Page x:Class="ClubOrganizer._03_View.Pages.Configuration.PageCreatePositions"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+      
+      xmlns:ui="http://schemas.modernwpf.com/2019"
+      ui:ThemeManager.RequestedTheme="Light"
+      
+      xmlns:vm="clr-namespace:ClubOrganizer._02_ModelView.Pages.Configuration"
+      xmlns:beh="clr-namespace:ClubOrganizer._05_Functions.Behaviors">
+
+    <Page.DataContext>
+        <vm:ViewModelCreatePositions/>
+    </Page.DataContext>
+
+    <ui:SimpleStackPanel Spacing="10" 
+                         Width="760">
+        <TextBlock Text="Создание должностей" 
+                   HorizontalAlignment="Center"
+                   FontWeight="DemiBold" 
+                   FontSize="35"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="23"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="23"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="10"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.ColumnSpan="3">
+                <ComboBox HorizontalAlignment="Stretch"
+                          ui:ControlHelper.Header="Название должности"
+                          ui:ControlHelper.PlaceholderText="Введите название должности"
+                          Margin="0,0,110,0"
+                          Text="{Binding Position}"
+                          IsEditable="True"/>
+                <Button Content="Сохранить"
+                        Style="{StaticResource AccentButtonStyle}"
+                        VerticalAlignment="Bottom"
+                        HorizontalAlignment="Right"
+                        Width="100"/>
+            </Grid>
+            <ui:SimpleStackPanel Spacing="10"
+                                 Grid.Column="0"
+                                 Grid.Row="2">
+                <TextBlock Text="Выбор прав доступа к договорам" 
+                           HorizontalAlignment="Left"
+                           FontSize="13.5"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Добавление"
+                          IsChecked="{Binding ReadContract}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Удаление"
+                          IsChecked="{Binding WriteContract}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Изменение"
+                          IsChecked="{Binding ChangeContract}"/>
+                <Path Data="M4.25,104.32667 L115,104.32667" 
+                      Fill="#FFF4F4F5" 
+                      HorizontalAlignment="Stretch" 
+                      Height="1" 
+                      Stroke="Black" 
+                      Stretch="Fill" 
+                      VerticalAlignment="Top" />
+                <TextBlock Text="Выбор прав доступа к счетам" 
+                           HorizontalAlignment="Left"
+                           FontSize="13.5"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Добавление"
+                          IsChecked="{Binding ReadService}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Удаление"
+                          IsChecked="{Binding WriteService}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Изменение"
+                          IsChecked="{Binding ChangeService}"/>
+                <Path Data="M4.25,104.32667 L115,104.32667" 
+                      Fill="#FFF4F4F5" 
+                      HorizontalAlignment="Stretch" 
+                      Height="1" 
+                      Stroke="Black" 
+                      Stretch="Fill" 
+                      VerticalAlignment="Top" />
+                <TextBlock Text="Выбор прав доступа к пользователям" 
+                           HorizontalAlignment="Left"
+                           FontSize="13.5"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Добавление"
+                          IsChecked="{Binding ReadUser}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Удаление"
+                          IsChecked="{Binding WriteUser}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Изменение"
+                          IsChecked="{Binding ChangeUser}"/>
+            </ui:SimpleStackPanel>
+            <Path Grid.Column="1" 
+                  Grid.Row="2"
+                  Data="M200,2.3266667 L200,96.66" 
+                  Fill="#FFF4F4F5" 
+                  HorizontalAlignment="Center" 
+                  Stroke="Black" 
+                  Stretch="Fill" 
+                  VerticalAlignment="Stretch" 
+                  Width="1"/>
+            <ui:SimpleStackPanel Spacing="10"
+                                 Grid.Column="2"
+                                 Grid.Row="2">
+                <TextBlock Text="Выбор прав доступа к страницам" 
+                           HorizontalAlignment="Left"
+                           FontSize="13.5"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Главная"
+                          IsChecked="{Binding Main}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Расписание"
+                          IsChecked="{Binding Timetable}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Договоры"
+                          IsChecked="{Binding Contracts}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Счета"
+                          IsChecked="{Binding Services}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Оплаты"
+                          IsChecked="{Binding Payments}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Отчёты"
+                          IsChecked="{Binding Reports}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Клиенты"
+                          IsChecked="{Binding Clients}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Чёрный список"
+                          IsChecked="{Binding Blacklist}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Настройки"
+                          IsChecked="{Binding Settings}"/>
+                <CheckBox HorizontalAlignment="Stretch"
+                          Content="Чат"
+                          IsChecked="{Binding Chat}"/>
+            </ui:SimpleStackPanel>
+            <Path Grid.Column="3" 
+                  Grid.RowSpan="3"
+                  Data="M200,2.3266667 L200,96.66" 
+                  Fill="#FFF4F4F5" 
+                  HorizontalAlignment="Center" 
+                  Stroke="Black" 
+                  Stretch="Fill" 
+                  VerticalAlignment="Stretch" 
+                  Width="1"/>
+            <StackPanel Grid.RowSpan="3"
+                        Grid.Column="4">
+                <TextBlock Text="Добавленные должности" 
+                           HorizontalAlignment="Left"
+                           FontSize="13.5"
+                           Margin="0,0,0,5"/>
+                <ItemsControl ItemsSource="{Binding Positions}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Content="{Binding PositionName}"
+                                    Command="{Binding PositionCommand}"
+                                    HorizontalAlignment="Stretch"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <ui:SimpleStackPanel Spacing="10"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                </ItemsControl>
+            </StackPanel>
+        </Grid>
+    </ui:SimpleStackPanel>
+</Page>

@@ -11,6 +11,7 @@ namespace ClubOrganizer._04_Commands
     {
         private readonly Action execute;
         private readonly Func<bool> canExecute;
+        private Action<string> checkPosition;
 
         public RelayCommand(Action execute)
             : this(execute, null)
@@ -21,6 +22,11 @@ namespace ClubOrganizer._04_Commands
         {
             this.execute = execute ?? throw new ArgumentNullException(nameof(execute));
             this.canExecute = canExecute;
+        }
+
+        public RelayCommand(Action<string> checkPosition)
+        {
+            this.checkPosition = checkPosition;
         }
 
         public bool CanExecute(object parameter)

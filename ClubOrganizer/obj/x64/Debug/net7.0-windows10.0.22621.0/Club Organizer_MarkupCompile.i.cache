@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 E:\C#\Beta\ClubOrganizer\ClubOrganizer\App.xaml
-3-250347618
+4-1836749235
 
-132086584527
+16-154287143
 2231512180790
-03_View\Pages\Configuration\PageCreateUser.xaml;03_View\Pages\Configuration\PageWelcome.xaml;03_View\WindowConfiguration.xaml;
+03_View\Pages\Configuration\PageCreatePositions.xaml;03_View\Pages\Configuration\PageCreateUser.xaml;03_View\Pages\Configuration\PageWelcome.xaml;03_View\WindowConfiguration.xaml;
 
-False
+True
 

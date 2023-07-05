@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="03_View\Pages\Configuration\PageCreatePositions.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="03_View\Pages\Configuration\PageCreateUser.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -18,6 +21,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="03_View\Pages\Configuration\PageCreatePositions.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="03_View\Pages\Configuration\PageCreateUser.xaml">
       <SubType>Designer</SubType>
     </Page>
