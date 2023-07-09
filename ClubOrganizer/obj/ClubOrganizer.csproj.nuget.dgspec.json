@@ -1,32 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projects\\Development\\App\\ClubOrganizer\\ClubOrganizer\\ClubOrganizer\\ClubOrganizer.csproj": {}
+    "E:\\C#\\Beta\\ClubOrganizer\\ClubOrganizer\\ClubOrganizer.csproj": {}
   },
   "projects": {
-    "F:\\Projects\\Development\\App\\ClubOrganizer\\ClubOrganizer\\ClubOrganizer\\ClubOrganizer.csproj": {
+    "E:\\C#\\Beta\\ClubOrganizer\\ClubOrganizer\\ClubOrganizer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projects\\Development\\App\\ClubOrganizer\\ClubOrganizer\\ClubOrganizer\\ClubOrganizer.csproj",
-        "projectName": "ClubOrganizer",
-        "projectPath": "F:\\Projects\\Development\\App\\ClubOrganizer\\ClubOrganizer\\ClubOrganizer\\ClubOrganizer.csproj",
+        "projectUniqueName": "E:\\C#\\Beta\\ClubOrganizer\\ClubOrganizer\\ClubOrganizer.csproj",
+        "projectName": "Club Organizer",
+        "projectPath": "E:\\C#\\Beta\\ClubOrganizer\\ClubOrganizer\\ClubOrganizer.csproj",
         "packagesPath": "C:\\Users\\evc\\.nuget\\packages\\",
-        "outputPath": "F:\\Projects\\Development\\App\\ClubOrganizer\\ClubOrganizer\\ClubOrganizer\\obj\\",
+        "outputPath": "E:\\C#\\Beta\\ClubOrganizer\\ClubOrganizer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\evc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0-windows"
+          "net7.0-windows10.0.22621.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0-windows7.0": {
-            "targetAlias": "net7.0-windows",
+          "net7.0-windows10.0.22621": {
+            "targetAlias": "net7.0-windows10.0.22621.0",
             "projectReferences": {}
           }
         },
@@ -37,32 +41,24 @@
         }
       },
       "frameworks": {
-        "net7.0-windows7.0": {
-          "targetAlias": "net7.0-windows",
+        "net7.0-windows10.0.22621": {
+          "targetAlias": "net7.0-windows10.0.22621.0",
           "dependencies": {
-            "DocX": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[2.4.0, )"
+              "version": "[7.0.8, )"
             },
-            "MaterialDesignColors": {
+            "Microsoft.Toolkit.Uwp.Notifications": {
               "target": "Package",
-              "version": "[2.1.1, )"
+              "version": "[7.1.3, )"
             },
-            "MaterialDesignThemes": {
+            "Microsoft.Xaml.Behaviors.Wpf": {
               "target": "Package",
-              "version": "[4.7.1, )"
+              "version": "[1.1.39, )"
             },
-            "Microsoft.Web.WebView2": {
+            "ModernWpfUI": {
               "target": "Package",
-              "version": "[1.0.1587.40, )"
-            },
-            "System.Linq": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
-            "TemplateEngine.Docx": {
-              "target": "Package",
-              "version": "[1.1.5, )"
+              "version": "[0.9.6, )"
             }
           },
           "imports": [
@@ -76,15 +72,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.22621.28, 10.0.22621.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref": {
               "privateAssets": "all"
             },
             "Microsoft.WindowsDesktop.App.WPF": {
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.300-preview.23122.5\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
